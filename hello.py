@@ -3,6 +3,8 @@ def print_hello():
   for i in range(1,num+1):
     if i%2==0:
       print('hello, git!')
+    elif i%3==0:
+      print('Oh, {} is odd but, hello!'.format(i))
     else:
       print('hello, git for {}th time(s)!'.format(i))
 
